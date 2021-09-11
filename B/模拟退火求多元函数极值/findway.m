@@ -10,13 +10,10 @@ idc=0;%初始化计数值
  
 while T0>T1 && idc <= 100
     idc =idc+1;
-    point2=new_point();
+    point2=new_point(point1, T0);
     % Metropolis法则判断是否接受新解
     [point1,R] = Metropolis(point1,point2,T0);
-     if idc == 1 || R > f(idc-1)
-        f(idc) = R;           
-     else
-        f(idc) = f(idc-1);%如果当前温度下函数值大于上一路程则记录上一函数值
+    f(idc) = R;           
     end
     T0 = q * T0; 
 end
