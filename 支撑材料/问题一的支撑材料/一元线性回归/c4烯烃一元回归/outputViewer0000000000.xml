@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><heading creation-date-time="2021年9月11日 星期六 下午05时02分02秒 CST" creator="E:\SPSS" creator-version="26000000" lockReader="false" xmlns="http://xml.spss.com/spss/viewer/viewer-tree" xmlns:vgr="http://xml.spss.com/spss/viewer/viewer-graph" xmlns:vizml="http://xml.spss.com/visualization" xmlns:vmd="http://xml.spss.com/spss/viewer/viewer-model" xmlns:vps="http://xml.spss.com/spss/viewer/viewer-pagesetup" xmlns:vst="http://xml.spss.com/spss/viewer/viewer-style" xmlns:vtb="http://xml.spss.com/spss/viewer/viewer-table" xmlns:vtl="http://xml.spss.com/spss/viewer/table-looks" xmlns:vtt="http://xml.spss.com/spss/viewer/viewer-treemodel" xmlns:vtx="http://xml.spss.com/spss/viewer/viewer-text" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xml.spss.com/spss/viewer/viewer-tree http://xml.spss.com/spss/viewer/viewer-tree-1.2.xsd"><label>输出</label><container text-align="left" visibility="visible" width="1266px"><label>日志</label><vtx:text commandName="log" type="log"><html lang="en" xmlns="http://www.w3.org/1999/xhtml"><![CDATA[<head><style type="text/css">p{color:0;font-family:Monospaced;font-size:14pt;font-style:normal;font-weight:normal;text-decoration:none}</style></head><BR>REGRESSION
+  /MISSING LISTWISE
+  /STATISTICS COEFF OUTS R ANOVA
+  /CRITERIA=PIN(.05) POUT(.10)
+  /NOORIGIN
+  /DEPENDENT C4烯烃选择性
+  /METHOD=ENTER 温度.]]></html></vtx:text></container></heading>

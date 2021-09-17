@@ -7,7 +7,7 @@ import numpy as np
 from matplotlib.font_manager import FontProperties  # 字体管理器
 
 # 设置汉字格式
-font = FontProperties(fname=r"/usr/share/fonts/consolas-with-yahei/consnerdi.ttf", size=12)
+font = FontProperties(fname=r"consnerdi.ttf", size=12)
 workbook = xlrd.open_workbook(r'A二维图.xlsx')
 sheet = workbook.sheet_by_index(0)
 x1 = [250, 275, 300, 350, 400]
